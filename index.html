@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet & Style - Produtos para Pets com Estilo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Header -->
+  <header class="flex justify-between items-center p-4 bg-pink-100 shadow-md">
+    <h1 class="text-2xl font-bold text-pink-600">Pet & Style</h1>
+    <nav class="hidden md:flex space-x-6">
+      <a href="#hero" class="hover:text-pink-600">Início</a>
+      <a href="#produtos" class="hover:text-pink-600">Produtos</a>
+      <a href="#depoimentos" class="hover:text-pink-600">Depoimentos</a>
+      <a href="#contato" class="hover:text-pink-600">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="flex flex-col md:flex-row items-center p-8 bg-pink-50">
+    <div class="md:w-1/2 text-center md:text-left">
+      <h2 class="text-3xl md:text-5xl font-bold text-pink-600 mb-4">Estilo e conforto para o seu pet!</h2>
+      <p class="text-lg text-gray-600">Na Pet & Style você encontra os melhores produtos para deixar seu pet na moda.</p>
+    </div>
+    <div class="md:w-1/2 mt-6 md:mt-0">
+      <img src="img/inicial.jpg" alt="Gato estiloso" class="rounded-xl shadow-lg w-full h-auto">
+    </div>
+  </section>
+
+  <!-- Produtos -->
+  <section id="produtos" class="p-8 bg-white">
+    <h3 class="text-2xl font-bold text-center text-pink-600 mb-8">Nossos Produtos</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="border rounded-lg p-4 shadow hover:shadow-md">
+        <img src="img/caminha.jpg" alt="Caminha" class="rounded mb-2">
+        <h4 class="font-semibold text-lg">Camas</h4>
+        <p class="text-sm text-gray-600">Conforto garantido para o descanso do seu pet.</p>
+        <span class="text-pink-600 font-bold">R$ 149,90</span>
+      </div>
+      <div class="border rounded-lg p-4 shadow hover:shadow-md">
+        <img src="img/brinquedo.jpg" alt="Brinquedo" class="rounded mb-2">
+        <h4 class="font-semibold text-lg">Brinquedos</h4>
+        <p class="text-sm text-gray-600">Diversão sem fim para o seu amiguinho.</p>
+        <span class="text-pink-600 font-bold">R$ 29,90</span>
+      </div>
+      <div class="border rounded-lg p-4 shadow hover:shadow-md">
+        <img src="img/coleira.jpg" alt="Coleira" class="rounded mb-2">
+        <h4 class="font-semibold text-lg">Coleiras</h4>
+        <p class="text-sm text-gray-600">Estilo e segurança em um só produto.</p>
+        <span class="text-pink-600 font-bold">R$ 39,90</span>
+      </div>
+      <div class="border rounded-lg p-4 shadow hover:shadow-md">
+        <img src="img/roupinha.jpg" alt="Roupinha" class="rounded mb-2">
+        <h4 class="font-semibold text-lg">Roupas</h4>
+        <p class="text-sm text-gray-600">Perfeita para passeios com charme.</p>
+        <span class="text-pink-600 font-bold">R$ 79,90</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Depoimentos -->
+  <section id="depoimentos" class="p-8 bg-pink-50">
+    <h3 class="text-2xl font-bold text-center text-pink-600 mb-8">Veja o que dizem nossos clientes</h3>
+    <div class="space-y-4 max-w-3xl mx-auto">
+      <blockquote class="italic">"Minha gata amou a caminha nova! Produto de altíssima qualidade." – Mateus C.</blockquote>
+      <blockquote class="italic">"Atendimento incrível e produtos lindos. Recomendo demais!" – Mateus S.</blockquote>
+      <blockquote class="italic">"Comprei uma roupinha e recebi muitos elogios nos passeios!" – Mateus C. S.</blockquote>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="p-8 bg-white">
+    <h3 class="text-2xl font-bold text-center text-pink-600 mb-8">Fale Conosco</h3>
+    <div class="max-w-3xl mx-auto">
+      <p class="mb-4 text-center">Email: contato@petstyle.com | Telefone: (21) 01234-5678</p>
+      <form class="grid grid-cols-1 gap-4">
+        <input type="text" placeholder="Seu nome" class="border rounded p-2">
+        <input type="email" placeholder="Seu e-mail" class="border rounded p-2">
+        <textarea placeholder="Sua mensagem" class="border rounded p-2"></textarea>
+        <button type="submit" class="bg-pink-600 text-white py-2 rounded hover:bg-pink-700">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center p-4 bg-pink-100 text-gray-700 mt-8">
+    © 2025 - Pet&Style. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
